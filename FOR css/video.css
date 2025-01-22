@@ -1,8 +1,10 @@
 
-
-  .thumbnail {
+.thumbnail {
     width: 100%;
     display: block;
+    margin-top: -20px;
+    border-radius: 4px;
+    
   }
 
   
@@ -16,6 +18,7 @@
   .video-info-grid {
     display: grid;
     grid-template-columns: 50px 1fr;
+  
   }
   
   .profile-picture {
@@ -26,6 +29,9 @@
 
   .thumbnail-row {
     margin-bottom: 12px;
+    position: relative;
+    
+
   }
 
   .video-author,
@@ -40,6 +46,30 @@
   .video-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 16px;
-    row-gap: 30px;
+    column-gap: 15px;
+    row-gap: 50px;
+  }
+
+  .LINK{
+    text-decoration: none;
+    color: black;
+  }
+
+  .link{
+    text-decoration: none;
+    color: rgb(60, 60, 60);
+  }
+
+  .Video-time{
+  font-family: Roboto,arial;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+    padding: 2px 4px;
+    border-radius: 2px;
+
+
   }
